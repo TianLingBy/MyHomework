@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: 'Economica';
+	src: url('font/Economica-Bold-OTF.otf') format('OpenType');
+}
+@font-face {
+	font-family: 'Kaushan';
+	src: url('font/KaushanScript-Regular.otf') format('OpenType');
+}
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: Arial;
+}
