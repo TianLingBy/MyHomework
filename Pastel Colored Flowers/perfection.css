@@ -1,10 +1,13 @@
+@font-face {
+    font-family: 'Armata';
+    src: url('font/Armata-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
 body{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-}
-.pd1{
-    
 }
 .daohanglan{
     display: flex;
@@ -18,7 +21,9 @@ body{
     display: flex;
     color: white;
     margin-left: 250px;
-    margin-top: 20px;
+    margin-top: 10px;
+    font-size:30px;
+    text-shadow: 3px 2px 3px rgba(0, 0, 0, 1);
 }
 .d-rig{
     display: flex;
@@ -38,7 +43,14 @@ body{
 .d-rig a{
     color: white;
     text-decoration: none;
+    transition: all 0.3s ease;
     /* 控制文字 */
+}
+.d-rig a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    padding: 8px 16px;
 }
 .pag1{
     display: flex;
@@ -53,6 +65,7 @@ body{
     margin-top: 50px;
     width: auto;
     height: 300px;
+    box-shadow: 0 20px 12px rgba(0, 0, 0, 0.3);
 }
 .content{
     color: white;
@@ -63,4 +76,141 @@ body{
     height: 300px;
     margin-left: auto;
     margin-right: 250px;
+    margin-top: 50px;
+    padding: 0;
+}
+.content h1{
+    font-family: 'Armata';
+    font-size: 30px;
+    margin: 0 0px 5px 0px;
+    padding: 0;
+
+}
+.content p{
+    font-size: 16px;
+    margin: 10px 0;
+    padding: 0;
+}
+.content img{
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    box-shadow: 0 20px 12px rgba(0, 0, 0, 0.3);
+}
+.pd2{
+    display: flex;
+    width: auto;
+    height: 500px;
+    margin-top: 30px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 0;
+    gap: 20px;
+}
+.f1{
+    background: linear-gradient(to bottom, #6DACD9, #1968AB 25%, #EEEEEE 25%);
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.3);
+}
+.f-text-body{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.f1-title{
+    color: white;
+    font-size: 30px;
+    margin: 5px 0 10px 15px;
+}
+.f1-text{
+    color: #717171;
+    font-size: 15px;
+    margin: 0 0 10px 0;
+    line-height: 1.5;
+}
+.f2{
+    background: linear-gradient(to bottom, #6DACD9, #1968AB 25%, #EEEEEE 25%);
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.3);
+}
+.f2-title{
+    color: white;
+    font-size: 30px;
+    margin: 5px 0 10px 15px;
+}
+.f2-text{
+    color: #717171;
+    font-size: 15px;
+    margin: 0 0 10px 0;
+    line-height: 1.5;
+}
+.f3{
+    background: linear-gradient(to bottom, #6DACD9, #1968AB 25%, #EEEEEE 25%);
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.3);
+}
+.f3-title{
+    color: white;
+    font-size: 30px;
+    margin: 0 0 10px 15px;
+}
+.f3-text{
+    color: #717171;
+    font-size: 15px;
+    margin: 0 0 10px 0;
+    line-height: 1.5;
+}
+.f4{
+    background: linear-gradient(to bottom, #6DACD9, #1968AB 25%, #EEEEEE 25%);
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.3);
+}
+.f4-title{
+    color: white;
+    font-size: 30px;
+    margin: 0 0 10px 15px;
+}
+.f4-text{
+    color: #717171;
+    font-size: 15px;
+    margin: 0 0 10px 0;
+    line-height: 1.5;
+}
+.pd3{
+    width: 100%;
+    height: 50px;
+    background-image: url("images/ambitios_header_bg.gif");
+    margin-top: 30px;
+    line-height: 50px;
+}
+.pd3 span{
+    color: white;
+    font-size: 14px;
+    margin-left: 250px;
 }
