@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>今天吃什么留言板 - 项目说明</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: "Microsoft YaHei", sans-serif;
+            background: linear-gradient(135deg, #ffecd2, #fcb69f);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 650px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        h1 { color: #e17055; margin-bottom: 10px; font-size: 2em; }
+        .subtitle { color: #b2bec3; margin-bottom: 30px; }
+        h2 { color: #e17055; font-size: 1.2em; margin: 20px 0 10px; }
+        code {
+            background: #ffeaa7;
+            padding: 2px 8px;
+            border-radius: 6px;
+            font-size: 0.95em;
+        }
+        pre {
+            background: #2d3436;
+            color: #ffeaa7;
+            padding: 16px;
+            border-radius: 12px;
+            margin: 10px 0;
+            overflow-x: auto;
+            font-size: 0.9em;
+            line-height: 1.6;
+        }
+        ul { margin-left: 20px; color: #636e72; line-height: 2; }
+        .tag {
+            display: inline-block;
+            background: #e1705520;
+            color: #e17055;
+            padding: 2px 10px;
+            border-radius: 8px;
+            font-size: 0.85em;
+            margin: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>🍜 今天吃什么留言板</h1>
+        <p class="subtitle">Vue 3 + Spring Boot + MySQL 全栈项目</p>
+
+        <h2>📦 技术栈</h2>
+        <p>
+            <span class="tag">Vue 3</span>
+            <span class="tag">Vite</span>
+            <span class="tag">Axios</span>
+            <span class="tag">Spring Boot 3</span>
+            <span class="tag">Spring Data JPA</span>
+            <span class="tag">MySQL 8</span>
+        </p>
+
+        <h2>🚀 启动步骤</h2>
+        <ul>
+            <li><strong>1. 数据库</strong> — 执行 <code>database/init.sql</code> 创建数据库</li>
+            <li><strong>2. 后端</strong> — 修改 <code>backend/src/main/resources/application.yml</code> 中的数据库密码，然后运行：</li>
+        </ul>
+        <pre>cd backend
+mvn spring-boot:run</pre>
+        <ul>
+            <li><strong>3. 前端</strong> — 安装依赖并启动：</li>
+        </ul>
+        <pre>cd frontend
+npm install
+npm run dev</pre>
+        <ul>
+            <li><strong>4. 访问</strong> — 打开浏览器访问 <code>http://localhost:5173</code></li>
+        </ul>
+
+        <h2>📁 项目结构</h2>
+        <pre>Saying Board/
+├── database/init.sql      ← 数据库脚本
+├── backend/               ← Spring Boot 后端
+│   ├── pom.xml
+│   └── src/main/java/com/foodboard/
+├── frontend/              ← Vue 3 前端
+│   ├── package.json
+│   └── src/
+└── main.html              ← 本文件（项目说明）</pre>
+    </div>
+</body>
+</html>
